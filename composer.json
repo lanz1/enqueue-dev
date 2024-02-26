@@ -1,5 +1,5 @@
 {
-  "name": "enqueue/enqueue-dev",
+  "name": "lanz1/enqueue-dev",
   "type": "project",
   "minimum-stability": "beta",
   "homepage": "https://enqueue.forma-pro.com/",
@@ -9,7 +9,7 @@
     "phpstan": "bin/phpstan analyse --memory-limit=512M -c phpstan.neon"
   },
   "require": {
-    "php": "^7.4|^8.0",
+    "php": "^7.4|^8.0|^8.2",
 
     "ext-amqp": "^1.9.3|^2.0.0",
     "ext-gearman": "^2.0",
